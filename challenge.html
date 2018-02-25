@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="target"></p>
+
+    <script>
+        let rps = prompt("Let's play Rock, Paper, Scissors! What do you choose?")
+        let myGuess = [rock, paper, scissors]
+        let myChoice = Math.random() * (3 - 1) + 1;
+
+        if (myGuess[myChoice] == rps.toLowerCase()){
+            console.log('#target').innerHTML = 'We chose the same thing!!! LOL!!!'
+        }
+
+    </script>
+</body>
+</html>
