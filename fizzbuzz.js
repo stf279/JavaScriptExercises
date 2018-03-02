@@ -27,9 +27,3 @@ const fizzBuzz = function() {
 
 fizzBuzz();
 
-// let num;
-
-// for (num = 1; i < 100; num++) {
-
-//     if (num % 3 === 1 && num % 5 === 1)
-// }
