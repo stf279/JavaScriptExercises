@@ -14,6 +14,8 @@ pallyCheck('wow');
 pallyCheck('was it a car or a cat i saw');
 pallyCheck('level');
 pallyCheck('This is a palindrome!');
+pallyCheck('is this a pallindrome?');
+
 
 
 
